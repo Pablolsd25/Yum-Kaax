@@ -1,11 +1,16 @@
-import Navbar from "./Components/NavBar/NavBar";
+import { Routes, Route } from "react-router-dom";
+import NavBar from "./Components/NavBar/NavBar";
+import Langind from "./Components/Landing.jsx/Langind";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-    </div>
+    <>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Langind />} />
+      </Routes>
+    </>
   );
 }
 
