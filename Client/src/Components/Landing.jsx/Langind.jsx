@@ -11,7 +11,7 @@ const Langind = () => {
         <Col>
           <Carrusel />
         </Col>
-        <Col>2EEEEEEEEE</Col>
+        <Col>EEEEEEEEE</Col>
       </Row>
     </Container>
   );

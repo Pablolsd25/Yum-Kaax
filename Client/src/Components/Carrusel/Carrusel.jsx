@@ -1,26 +1,30 @@
 import React from "react";
-import Carousel from "react-bootstrap";
-import ExampleCarouselImage from "components/ExampleCarouselImage";
+import { Carousel } from "react-bootstrap";
+import { Image } from "react-bootstrap";
+import img1 from "../assets/img1.jpg";
+import img2 from "../assets/img2.jpg";
+import img3 from "../assets/img3.jpg";
 
 const Carrusel = () => {
   return (
     <Carousel>
       <Carousel.Item interval={1000}>
-        <ExampleCarouselImage text="First slide" />
+        <Image src={img1} alt="First slide" thumbnail />
+
         <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={500}>
-        <ExampleCarouselImage text="Second slide" />
+        <Image src={img2} alt="Second slide" thumbnail />
         <Carousel.Caption>
           <h3>Second slide label</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <ExampleCarouselImage text="Third slide" />
+        <Image src={img3} alt="Third slide" thumbnail />
         <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>
