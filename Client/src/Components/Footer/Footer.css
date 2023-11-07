@@ -1,0 +1,10 @@
+/* CardLanding.scss (u otro archivo Sass donde definas estilos) */
+
+.footer {
+  background-color: #003f00; /* Color de fondo del footer */
+  color: white; /* Color del texto del footer */
+  padding: 20px; /* Espaciado interno del footer */
+  position: fixed; /* Hace que el footer sea de posición fija */
+  bottom: 0; /* Lo coloca en la parte inferior de la ventana gráfica */
+  width: 100%; /* Ancho completo del viewport */
+}

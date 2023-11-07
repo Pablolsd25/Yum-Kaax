@@ -1,0 +1,32 @@
+// custom.scss
+@import "../node_modules/bootstrap/scss/bootstrap";
+// Definición de variables de color
+$color1: #ffa4e5;
+$color2: #ffb9b7;
+$color3: #003f00;
+$color4: #3f6f00;
+$color5: #b59b3c;
+
+// Aplicación de colores personalizados
+// Puedes utilizar estas variables en tu aplicación
+.color1 {
+  color: $color1;
+}
+
+.color2 {
+  color: $color2;
+}
+
+.color3 {
+  color: $color3;
+}
+
+.color4 {
+  color: $color4;
+}
+
+.color5 {
+  color: $color5;
+}
+
+// Otras definiciones de estilos personalizados

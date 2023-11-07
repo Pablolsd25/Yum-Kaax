@@ -1,0 +1,12 @@
+@import "custom";
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Ajusta la altura según tus necesidades */
+  background: linear-gradient(to right, #ffddf5 50%, #5b9e03 50%);
+}
+
+app-container {
+  height: 100vh;
+}

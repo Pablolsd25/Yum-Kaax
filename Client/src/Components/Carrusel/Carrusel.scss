@@ -1,0 +1,14 @@
+@import "../../styles/custom.scss";
+
+.image-small {
+  width: 100%; /* Reduce el ancho al 50% del tamaño original */
+  margin: 0 auto; /* Margen automático para centrar el contenedor */
+}
+
+.carousel-container {
+  max-width: 80%; /* Establece el ancho máximo al 50% del ancho de la página */
+  margin: 0 auto;
+  margin-top: 2rem; /* Margen automático para centrar el contenedor */
+  margin-left: 0rem;
+  margin-bottom: 1rem;
+}

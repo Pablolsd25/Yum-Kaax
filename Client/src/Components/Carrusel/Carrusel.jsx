@@ -4,7 +4,7 @@ import { Image } from "react-bootstrap";
 import img1 from "../assets/img1.png";
 import img2 from "../assets/img2.png";
 import img3 from "../assets/img3.png";
-import "../Carrusel/Carrusel.css";
+import "../Carrusel/Carrusel.scss";
 
 const Carrusel = () => {
   return (
