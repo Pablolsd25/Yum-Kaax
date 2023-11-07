@@ -1,19 +1,27 @@
 import * as React from "react";
+import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./NavBar.css";
+import Logo from "../assets/logo.svg";
 
 const NavBar = () => {
   return (
     <div className="custom-navbar">
       <Container className="custom-navbar">
         <Navbar bg="succes" variant="dark">
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <img src={Logo} alt="logo" width="50%" height="50%" />
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Link to="/" className="nav-link">
+              Inicio
+            </Link>
+            <Link to="/productos" className="nav-link">
+              Productos
+            </Link>
+            <Link to="/pedidos" className="nav-link">
+              Pedidos
+            </Link>
           </Nav>
         </Navbar>
       </Container>
