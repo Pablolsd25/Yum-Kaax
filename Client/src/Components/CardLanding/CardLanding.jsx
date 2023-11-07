@@ -6,7 +6,7 @@ import "../CardLanding/CardLanding.scss";
 const CardLanding = () => {
   return (
     <div className="card-container">
-      <Card style={{ width: "30rem" }} className="background-container">
+      <Card style={{ width: "30rem" }} className="bg-secondary color1">
         <Card.Header>Featured</Card.Header>
         <Card.Body>
           <Card.Title>Special title treatment</Card.Title>
@@ -14,7 +14,7 @@ const CardLanding = () => {
             With supporting text below as a natural lead-in to additional
             content.
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <Button variant="success">Go somewhere</Button>
         </Card.Body>
       </Card>
     </div>
