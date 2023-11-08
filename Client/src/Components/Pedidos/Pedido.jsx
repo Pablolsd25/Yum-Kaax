@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button, Form } from "react-bootstrap";
+import "../Pedidos/Pedidos.css";
 
 const Pedidos = () => {
   const handleWhatsAppClick = () => {
@@ -8,10 +9,10 @@ const Pedidos = () => {
 
   return (
     <Container className="py-4 px-50">
-      <h2 className="text-center">Contácto y Pedidos</h2>
+      <h2 className="text-center">Pedidos</h2>
       <Row>
         <Col xs={12} md={6} className="text-center">
-          <div>
+          <div className="centrado">
             <p>
               ¿Tienes alguna pregunta o deseas hacer un pedido? ¡Estamos aquí
               para ayudarte! Contáctanos a través de WhatsApp y te responderemos
@@ -23,14 +24,14 @@ const Pedidos = () => {
           </div>
         </Col>
         <Col xs={12} md={6} className="text-center">
-          <div>
+          <div className="centro-form">
             <Form>
               <Form.Group>
-                <Form.Label>Tu Nombre</Form.Label>
+                <Form.Label>Nombre</Form.Label>
                 <Form.Control type="text" placeholder="Escribe tu nombre" />
               </Form.Group>
               <Form.Group>
-                <Form.Label>Tu Correo Electrónico</Form.Label>
+                <Form.Label>Correo Electrónico</Form.Label>
                 <Form.Control
                   type="email"
                   placeholder="Escribe tu correo electrónico"
@@ -44,7 +45,7 @@ const Pedidos = () => {
                   placeholder="Escribe los detalles de tu pedido"
                 />
               </Form.Group>
-              <Button type="submit" variant="success">
+              <Button type="submit" variant="success" className="espacio-btn">
                 Enviar Pedido
               </Button>
             </Form>
