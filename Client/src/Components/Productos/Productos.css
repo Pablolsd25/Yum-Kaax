@@ -1,0 +1,17 @@
+/* Productos.css (o un archivo .scss si lo prefieres) */
+
+/* Estilo para las imágenes */
+.imagen-azulejo {
+  max-width: 200px; /* Establece un ancho máximo para las imágenes */
+  height: auto; /* Mantiene la relación de aspecto original */
+  border: 1px solid #ddd; /* Agrega un borde a las imágenes */
+  border-radius: 5px; /* Agrega bordes redondeados */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Agrega una sombra suave */
+  transition: transform 0.2s; /* Agrega una transición al hacer hover */
+  margin-top: 1rem;
+  margin-left: 5rem;
+  /* Estilo al hacer hover sobre las imágenes */
+  &:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al hacer hover */
+  }
+}
