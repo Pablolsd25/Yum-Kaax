@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { Container, Row, Col, Image, ListGroup, Card } from "react-bootstrap"; // Importa componentes de Bootstrap
+
 const DetalleProducto = ({ productos }) => {
   const { id } = useParams();
 
