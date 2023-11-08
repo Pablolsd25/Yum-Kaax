@@ -9,10 +9,10 @@ const Langind = () => {
   return (
     <Container>
       <Row>
-        <Col>
+        <Col md={6}>
           <Carrusel />
         </Col>
-        <Col>
+        <Col md={6}>
           <CardLanding />
         </Col>
       </Row>

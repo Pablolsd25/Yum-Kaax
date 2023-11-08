@@ -12,3 +12,17 @@
   margin-left: 0rem;
   margin-bottom: 0rem;
 }
+
+@media (max-width: 768px) {
+  .image-small {
+    width: 100%; /* Restablece el ancho al 100% para adaptarse a pantallas pequeñas */
+  }
+
+  .carousel-container {
+    max-width: 100%; /* Restablece el ancho máximo al 100% para adaptarse a pantallas pequeñas */
+    margin: 0 auto;
+    margin-top: 0.1rem;
+    margin-left: 0rem;
+    margin-bottom: 0rem;
+  }
+}

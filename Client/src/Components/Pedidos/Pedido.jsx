@@ -45,9 +45,11 @@ const Pedidos = () => {
                   placeholder="Escribe los detalles de tu pedido"
                 />
               </Form.Group>
-              <Button type="submit" variant="success" className="espacio-btn">
-                Enviar Pedido
-              </Button>
+              <div className="centro-btn">
+                <Button type="submit" variant="success" className="espacio-btn">
+                  Enviar Pedido
+                </Button>
+              </div>
             </Form>
           </div>
         </Col>
